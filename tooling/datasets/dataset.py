@@ -21,7 +21,6 @@ class Dataset:
         return self.data[index]
     
     def filter(self, func:callable):
-
         return Dataset(func(self.data))
     
     def sort(self, key:callable):
