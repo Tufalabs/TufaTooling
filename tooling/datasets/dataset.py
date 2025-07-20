@@ -11,9 +11,10 @@ class Dataset:
         self.data =  data if data else []
         self.answer_col = answer_col
         self.question_col = question_col
+        self.recommended_rubric = None
 
 
-
+    
     def __len__(self):
         return len(self.data)
     

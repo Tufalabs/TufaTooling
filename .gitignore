@@ -8,3 +8,4 @@ set_api_keys.sh
 .venv
 
 tufatooling.egg-info
+test.ipynb
