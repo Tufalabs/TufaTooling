@@ -11,9 +11,10 @@ class Dataset:
         self.data =  data if data else []
         self.answer_col = answer_col
         self.question_col = question_col
+        self.recommended_rubric = None
 
 
-
+    
     def __len__(self):
         return len(self.data)
     
@@ -21,7 +22,6 @@ class Dataset:
         return self.data[index]
     
     def filter(self, func:callable):
-
         return Dataset(func(self.data))
     
     def sort(self, key:callable):

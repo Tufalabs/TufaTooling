@@ -16,4 +16,9 @@ __pycache__/
 # Virtual environments
 .venv
 
+
+tufatooling.egg-info
+test.ipynb
+=======
 set_api_keys.sh
+
