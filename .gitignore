@@ -1,11 +1,24 @@
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+=======
 # Python cache files
 __pycache__/
 *.py[cod]
 *$py.class
 .pytest_cache/
 
-set_api_keys.sh
+# Virtual environments
 .venv
+
 
 tufatooling.egg-info
 test.ipynb
+=======
+set_api_keys.sh
+
